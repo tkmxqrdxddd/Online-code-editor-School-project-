@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online code editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Code Editor</h1>
+    </header>
+    <div class="dropdown">
+        <select id="language-select">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="csharp">C#</option>
+            <option value="cpp">C++</option>
+        </select>
+    </div>
+    <div class="editor">
+        <div class="sidebar">
+            <!-- Sidebar content -->
+        </div>
+        <div class="main">
+            <textarea id="code" placeholder="Enter your code here..."></textarea>
+            <button id="learn-button"><a href="./learn.html">Learn</a></button>
+            <button id="contacts-button"><a href="./contacts.html">Contacts</a></button>
+        </div>
+        <div class="output">
+            <div id="output-content">Output will be displayed here</div>
+        </div>
+    </div>
+</body>
+</html>
