@@ -1,1 +1,1 @@
-negr.site
+Vše je na https://negr.site
